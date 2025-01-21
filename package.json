@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node posts.js",
-    "watch": "node --watch posts.js",
+    "start": "node post.js",
+    "watch": "node --watch post.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +20,6 @@
   "dependencies": {
     "express": "^4.21.2"
   },
+  "devDependencies": {},
   "description": ""
 }

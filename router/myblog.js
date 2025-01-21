@@ -21,7 +21,7 @@ router.put('/:id', function(req, res) {
     res.send('Aggiorna dei post ' + req.params.id);
 });
 
-// destry
+// destroy
 router.delete('/:id', function(req, res) {
     res.send('Elimina dei post ' + req.params.id);
 });
